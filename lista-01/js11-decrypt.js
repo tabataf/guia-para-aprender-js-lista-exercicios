@@ -11,10 +11,16 @@
  * ao invés incrementar, vamos precisar decrementar...
  */
 
-// Entrada
-var texto = "bcbdbuf";
-
-// implemente aqui uma lógica para descriptografar o texto
-var textoDecripto = "abacate";
-
-console.log(textoDecripto);
+ var texto = 'bcbdbuf'
+ var textoDesCripto=[]
+ for (i of texto){
+     if (i=="@"){
+         textoDesCripto +="z"
+     } else if (i=="$"){
+         textoDesCripto +="Z"
+     }
+     else {
+         textoDesCripto += String.fromCharCode(i.charCodeAt(0)-1)
+     }
+ }
+ console.log(textoDesCripto)

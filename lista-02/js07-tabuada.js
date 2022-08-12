@@ -16,8 +16,15 @@
  */
 
 // Entrada
-var entrada = 5
-
-var tabuada = [5, 10, 15]
+var entrada = 18
+if (entrada>11 || entrada<0){
+    console.log("entrada inválida")
+}
+else {
+    for (var i=1; i < 11; i++) { 
+    console.log(`${entrada} x ${i} = ${entrada * i}`)
+}
+}
+var tabuada 
 
 console.log(tabuada)

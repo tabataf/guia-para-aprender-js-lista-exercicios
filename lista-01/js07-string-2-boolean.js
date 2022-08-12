@@ -13,10 +13,8 @@
  * qualquer outra coisa, $   false
  */
 
-// Entrada
-var entrada = "J";
-
-// implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
-var resultado = false;
-
-console.log(resultado);
+ let entrada = "n";
+ let palavresVerdade = ["y", "yes", "s", "sim", "👍", "1"];
+ let resultado = palavresVerdade.includes(entrada.toLowerCase());
+ 
+ console.log(resultado);

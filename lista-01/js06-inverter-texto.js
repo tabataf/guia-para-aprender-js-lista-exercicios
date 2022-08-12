@@ -7,10 +7,8 @@
  * 
  */
 
-// Entrada
-var entrada = 'abacate'
-
-// gere a variável invertido de forma a transforma a entrada na saída esperada
-var invertido = '?'
-
-console.log(invertido)
+ var tempFahrenheit = 89
+ var tempCelcius = (tempFahrenheit - 32) * 5/9 
+ var arredondar = tempCelcius.toFixed(0)
+ var result= `A temperatura ${tempFahrenheit} equivale a ${arredondar} graus Celcius`
+ console.log(result)

@@ -8,9 +8,21 @@
  */
 
 // Entrada
+// reduce = executa cada elemento de uma array 
+
+// var entrada = [1,1,40]
+// const maxValue = entrada.reduce(function(prev, current) { 
+// 	return prev > current ? prev : current; 
+// });
+
+
+// console.log(maxValue)
+
 var entrada = [1,1,40]
-
-var maior = 0
-
-
+maior=0
+for(n of entrada) {
+    if ( n > maior) {
+        maior = n 
+    }
+}
 console.log(maior)

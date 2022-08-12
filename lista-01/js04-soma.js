@@ -15,11 +15,11 @@
  * qual é o typeof(typeof A)
  */
 
-// Entrada
-var n1 = 'A'
-var n2 = 40
-
-// Saída
-var resultado = '?'
-
-console.log(resultado)
+ var numeroUm = 10
+ var numeroDois= 2
+ var soma= numeroUm + numeroDois
+ if (typeof numeroUm == "number" && typeof numeroDois=="number") {
+     console.log(soma)
+ } else {
+     console.log(`algum numero digitado está errado`)
+ }

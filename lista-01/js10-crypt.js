@@ -29,11 +29,16 @@
  * - Não usar bibliotecas, basta manipular a string de entrada de forma a embaralhá-la
  */
 
-// Entrada
-var texto = 'abacate'
-
-// implemente aqui uma lógica para criptografar o texto
-
-var textoCripto = 'bcbdbuf'
-
-console.log(textoCripto)
+ var texto = 'zenfobia'
+ var textoCripto=[]
+ for (i of texto){
+     if (i=="z"){
+         textoCripto +="@"
+     } else if (i=="Z"){
+         textoCripto +="$"
+     }
+     else {
+         textoCripto += String.fromCharCode(i.charCodeAt(0)+1)
+     }
+ }
+ console.log(textoCripto)

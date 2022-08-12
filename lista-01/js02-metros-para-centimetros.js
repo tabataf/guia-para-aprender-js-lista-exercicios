@@ -14,12 +14,8 @@
  *    e compare se o resultado é o esperado
  */
 
-// Entrada
-var metros = 1
-
-// Altere a expressão abaixo para calcular cm com base na var metros
-var cm = 100
-
-var resultado = '👉 ' + metros + ' metro(s) == ' + cm + ' centímetro(s)'
-
-console.log(resultado)
+ var metro= 4
+ var cm= metro * 100
+ var result= `${metro} metro(s) == ${cm} cm`
+ 
+ console.log(result)

@@ -11,10 +11,30 @@
  * Se digitar outro valor deve aparecer: 'Entrada inválida.'
  */
 
-// Entrada
-var entrada = 1
-
-// implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
-var resultado = 'Domingo'
-
-console.log(resultado)
+ const numero = 5;
+ if (numero >7 || numero <1) {
+ console.log("Entrada inválida.");
+ } else {
+ switch (numero) {
+ case 1:
+ console.log("Domingo");
+ break;
+ case 2:
+ console.log("Segunda-feira");
+ break;
+ case 3:
+ console.log("Terça-feira");
+ break;
+ case 4:
+ console.log("Quarta-feira");
+ break;
+ case 5:
+ console.log("Quinta-feira");
+ break;
+ case 6:
+ console.log("Sexta-feira");
+ break;
+ case 7:
+ console.log("Sábado");
+ }
+ }

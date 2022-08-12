@@ -8,10 +8,8 @@
  * 70                   21
  */
 
-// Entrada
-var fahrenheit = 89
-
-// Altere a expressão abaixo para converter Fahrenheit em Celsius
-var celsius = 32
-
-console.log(celsius)
+ var tempFahrenheit = 89
+ var tempCelcius = (tempFahrenheit - 32) * 5/9 
+ var arredondar = tempCelcius.toFixed(0)
+ var result= `A temperatura ${tempFahrenheit} equivale a ${arredondar} graus Celcius`
+ console.log(result)

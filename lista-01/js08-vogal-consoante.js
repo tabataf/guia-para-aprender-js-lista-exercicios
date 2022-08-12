@@ -9,10 +9,11 @@
  * J                 consoante
 */
 
-// Entrada
-var entrada = 'a'
+const vogais = ["a", "e", "i", "o", "u"];
+var entrada = "z"
 
-// implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
-var resultado = 'vogal'
-
-console.log(resultado)
+if (vogais.includes(entrada.toLowerCase())) {
+    console.log("vogal")
+} else {
+    console.log("consoante")
+}

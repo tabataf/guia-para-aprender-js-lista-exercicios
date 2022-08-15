@@ -17,7 +17,7 @@
 
 // Entrada
 var entrada = 18
-if (entrada>11 || entrada<0){
+if (entrada>=10 || entrada<0){
     console.log("entrada inválida")
 }
 else {

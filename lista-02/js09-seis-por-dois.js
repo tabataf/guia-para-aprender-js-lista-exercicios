@@ -12,3 +12,4 @@
 // Pŕoxima volta
 
 // Saída com base na próxima folga, calcular dia de trabalho/folga
+

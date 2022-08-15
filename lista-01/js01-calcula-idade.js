@@ -16,9 +16,9 @@
  *   a lógica do programa
  */
 
-const date = new Date();
+const date = new Date().getFullYear();
 var anoNascimento= 2004
-var idade = 2022 - anoNascimento
+var idade = date - anoNascimento
 var result = `Quem nasceu no ${anoNascimento} tem a idade de ${idade}`
 
 console.log(result)

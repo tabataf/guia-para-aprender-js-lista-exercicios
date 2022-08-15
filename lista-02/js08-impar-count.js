@@ -24,3 +24,4 @@ for (i in entrada){
 //saida
 
 console.log(`${impares} ${pares}`)
+

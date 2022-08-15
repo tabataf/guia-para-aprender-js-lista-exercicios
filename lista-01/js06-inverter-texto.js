@@ -7,8 +7,8 @@
  * 
  */
 
- var tempFahrenheit = 89
- var tempCelcius = (tempFahrenheit - 32) * 5/9 
- var arredondar = tempCelcius.toFixed(0)
- var result= `A temperatura ${tempFahrenheit} equivale a ${arredondar} graus Celcius`
+ var textoNormal = 'abacate'
+ var textoInvertido = textoNormal.split("")
+ var rev = textoInvertido.reverse()
+ var result = rev.join('')
  console.log(result)
